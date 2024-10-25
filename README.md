@@ -35,7 +35,7 @@ Puntuación de crédito del cliente, País de residencia, Género del cliente, E
 
 1. **Clonar el Repositorio**
    ```bash
-   git clone https://github.com/moises60/Upper-Confidence-Bound-python.git
+   git clone https://github.com/moises60/red-neuronal-artificial-python.git
    ```
 ---
 
@@ -111,13 +111,13 @@ Se ajustó el umbral de clasificación a 0.35 para mejorar el balance entre prec
 **Matriz de Confusión:**
 
 ```
-[[1458  137]
- [ 164  241]]
+[[1414  181]
+ [ 143  262]]
 ```
 |                    | **Predicho: No Exited (0)** | **Predicho: Exited (1)** |
 |--------------------|-----------------------------|--------------------------|
-| **Real: No Exited (0)** | Verdaderos Negativos (VN) = 1458       | Falsos Positivos (FP) = 137          |
-| **Real: Exited (1)**    | Falsos Negativos (FN) = 164        | Verdaderos Positivos (VP) = 241      |
+| **Real: No Exited (0)** | Verdaderos Negativos (VN) = 1414       | Falsos Positivos (FP) = 181          |
+| **Real: Exited (1)**    | Falsos Negativos (FN) = 143        | Verdaderos Positivos (VP) = 262      |
 
 ![Matriz de Confusión](assets/matriz_confusion.png)
 
@@ -140,16 +140,16 @@ weighted avg       0.85      0.85      0.85      2000
 - **Recall para Clase 'Exited':** Aumentó al 60%, mejorando la capacidad del modelo para identificar clientes que abandonan.
 - **Aumento en Falsos Positivos:** Al ajustar el umbral, aumentaron los falsos positivos, lo que implica más clientes predichos incorrectamente como abandonos.
 
-1. **Verdaderos Negativos (VN) - 1458:**
+1. **Verdaderos Negativos (VN) - 1414:**
    - Clientes que no abandonaron y fueron correctamente predichos como "No Exited".
    
-2. **Falsos Positivos (FP) - 137:**
+2. **Falsos Positivos (FP) - 181:**
    - Clientes que no abandonaron pero fueron predichos incorrectamente como "Exited".
    
-3. **Falsos Negativos (FN) - 164:**
+3. **Falsos Negativos (FN) - 143:**
    - Clientes que sí abandonaron pero fueron predichos incorrectamente como "No Exited".
    
-4. **Verdaderos Positivos (VP) - 241:**
+4. **Verdaderos Positivos (VP) - 262:**
    - Clientes que sí abandonaron y fueron correctamente predichos como "Exited".
 
 - **Curva Precision:** `assets/curva_precision.png`
