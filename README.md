@@ -151,8 +151,7 @@ weighted avg       0.85      0.85      0.85      2000
    
 4. **Verdaderos Positivos (VP) - 262:**
    - Clientes que sí abandonaron y fueron correctamente predichos como "Exited".
-
-- **Curva Precision:** `assets/curva_precision.png`
+![Curva Precision](assets/curva_precision.png)
 
 ## Licencia
 el dataset y parte código se Extrajeron del siguiente repositorio : https://github.com/joanby/machinelearning-az/tree/master/original/Part%208%20-%20Deep%20Learning/Section%2039%20-%20Artificial%20Neural%20Networks%20(ANN) 
