@@ -151,6 +151,8 @@ weighted avg       0.85      0.85      0.85      2000
    
 4. **Verdaderos Positivos (VP) - 262:**
    - Clientes que sí abandonaron y fueron correctamente predichos como "Exited".
+  
+   
 ![Curva Precision](assets/curva_precision.png)
 
 ## Licencia
